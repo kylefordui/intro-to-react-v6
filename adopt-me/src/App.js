@@ -28,5 +28,4 @@ const App = () => {
 //     React.createElement(Pet, { name: "Chloe", animal: "Cat", breed: "Tabby" }),
 //   ]);
 // };
-
-ReactDOM.render(React.createElement(App), document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById("root"));
